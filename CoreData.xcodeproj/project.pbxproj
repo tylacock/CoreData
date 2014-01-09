@@ -22,6 +22,8 @@
 		152011C6187F2C3D00E9C516 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152011AA187F2C3D00E9C516 /* CoreData.framework */; };
 		152011CE187F2C3D00E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 152011CC187F2C3D00E9C516 /* InfoPlist.strings */; };
 		152011D0187F2C3D00E9C516 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152011CF187F2C3D00E9C516 /* CoreDataTests.m */; };
+		152011DA187F2CD600E9C516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152011D9187F2CD600E9C516 /* Main.storyboard */; };
+		152011DD187F2DEF00E9C516 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152011DC187F2DEF00E9C516 /* CoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		152011CB187F2C3D00E9C516 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		152011CD187F2C3D00E9C516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		152011CF187F2C3D00E9C516 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		152011D9187F2CD600E9C516 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		152011DB187F2DEF00E9C516 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		152011DC187F2DEF00E9C516 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +124,10 @@
 				152011B6187F2C3D00E9C516 /* AppDelegate.m */,
 				152011BB187F2C3D00E9C516 /* Images.xcassets */,
 				152011B8187F2C3D00E9C516 /* CoreData.xcdatamodeld */,
+				152011D9187F2CD600E9C516 /* Main.storyboard */,
 				152011AD187F2C3D00E9C516 /* Supporting Files */,
+				152011DB187F2DEF00E9C516 /* CoreDataViewController.h */,
+				152011DC187F2DEF00E9C516 /* CoreDataViewController.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152011DA187F2CD600E9C516 /* Main.storyboard in Resources */,
 				152011B1187F2C3D00E9C516 /* InfoPlist.strings in Resources */,
 				152011BC187F2C3D00E9C516 /* Images.xcassets in Resources */,
 			);
@@ -249,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				152011B7187F2C3D00E9C516 /* AppDelegate.m in Sources */,
+				152011DD187F2DEF00E9C516 /* CoreDataViewController.m in Sources */,
 				152011B3187F2C3D00E9C516 /* main.m in Sources */,
 				152011BA187F2C3D00E9C516 /* CoreData.xcdatamodeld in Sources */,
 			);
